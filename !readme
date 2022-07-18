@@ -1,0 +1,15 @@
+cd vapor
+
+vapor new socketserver
+cd socketserver
+
+
+vapor build
+
+vapor run
+
+docker build -t  socketservertest .
+
+
+
+
